@@ -41,3 +41,6 @@ php;
 
 });
 
+Route::get('/test/{name}', function ($name){
+    echo 'Hello, '.$name;
+});
