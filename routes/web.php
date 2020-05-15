@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
+echo "Test";
+
 $text = "Hello, World!";
 $title = "My first page";
 
