@@ -1,4 +1,6 @@
 <?php
+//phpinfo();
+//echo "Test";
 
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +18,25 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//$text = "Hello, World!";
+//$title = "My first page";
+//
+//Route::get('/', function () use ($text, $title){
+//    return <<<php
+//
+//<!doctype html>
+//<html lang="en">
+//<head>
+// <meta charset="UTF-8">
+// <title>$title</title>
+//</head>
+//<body>
+//    <h1>$text</h1>
+//    Lorem
+//</body>
+//</html>
+//
+//php;
+//
+//});
