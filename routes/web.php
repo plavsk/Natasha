@@ -39,7 +39,8 @@ Route::get('/', function () use ($header, $title){
     <title>$title</title>
   </head>
   <body>
-    <h1$>$header</h1>
+    <h1>$header</h1>
+    <h2>$header</h2>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
