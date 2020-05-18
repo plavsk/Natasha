@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 class IndexController extends Controller
 {
     protected $articles = [];
-    private function __construct()
+    public function __construct()
     {
         $this->articles = [
             'first article',
