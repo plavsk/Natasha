@@ -4,9 +4,9 @@
         <title>Список статей</title>
     </head>
     <body>
-        <div style="margin-left:15px;">
+        <div>
             @foreach ($articles as $key => $value)
-                <p><a href = "{{route('article', ['id' => $key])}}" >
+                <p><a href="{{route('article', ['id' => $key])}}">
                         {{$key}} - {{$value}}
                     </a></p>
             @endforeach
