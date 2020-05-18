@@ -1,10 +1,10 @@
 <?php
-<!doctype html>
+<html>
     <head>
-        <title>List Articles</title>
+        <title>Список статей</title>
     </head>
     <body>
-        <div style = "margin-left:15px;">
+        <div style="margin-left:15px;">
             @foreach ($articles as $key => $value)
                 <p><a href = "{{route('article', ['id' => $key])}}" >
                         {{$key}} - {{$value}}
@@ -13,4 +13,4 @@
         </div>
     </body>
 </html>
-?>
+

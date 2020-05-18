@@ -2,11 +2,12 @@
 
 <html>
     <head>
-        <title>List Articles</title>
+        <title>Список статей</title>
     </head>
     <body>
-        <div style = "margin-left:15px;">
+        <div style="margin-left:15px;">
             {{$article}}
         </div>
     </body>
 </html>
+
