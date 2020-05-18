@@ -11,9 +11,9 @@ class IndexController extends Controller
     public function __construct()
     {
         $this->articles = [
-            'first article',
-            'second article',
-            'other article'
+            'Статья 1',
+            'Статья 2',
+            'Статья 3'
         ];
     }
 
