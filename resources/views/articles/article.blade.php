@@ -5,7 +5,7 @@
         <title>Список статей</title>
     </head>
     <body>
-        <div>
+        <div style="margin-left: 15px;">
         {{$article}}
         </div>
     </body>
