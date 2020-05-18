@@ -1,5 +1,5 @@
 <?php
-<html>
+<!doctype html>
     <head>
         <title>List Articles</title>
     </head>
