@@ -1,4 +1,4 @@
-<?php
+<!DOCTYPE html>
 <html>
     <head>
         <title>Список статей</title>
