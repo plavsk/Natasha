@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/controller', 'TestController@start');
+Route::get('/', 'TestController@start');
 
 //Route::get('/', 'NewsLine\NewsLineController@getListNews');
 //Route::get('/news/{id}.html', 'NewsLine\NewsLineController@getNews')-> name('news');
