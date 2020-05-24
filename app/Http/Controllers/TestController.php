@@ -14,7 +14,7 @@ class TestController extends Controller
     }
 
     public function listTest(){
-        return view ('test.listTest', ['testCont'=>$this->testCont]);
+        return view ('test', ['testCont'=>$this->testCont]);
     }
 
     public function end(){
