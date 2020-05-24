@@ -32,5 +32,9 @@ class NewsLineController extends Controller
 
         return view('News.news_page', ['news'=>$this->news[$id]]);
     }
+
+    public function getAboutPage(){
+        return view('News.about');
+    }
 }
 
