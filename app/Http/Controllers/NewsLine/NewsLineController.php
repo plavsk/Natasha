@@ -30,7 +30,7 @@ class NewsLineController extends Controller
             return abort(404);
         }
 
-        return view('NewsLine.getNews', ['news'=>$this->news[$id]]);
+        return view('News.news_page', ['news'=>$this->news[$id]]);
     }
 }
 
