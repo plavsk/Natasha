@@ -21,7 +21,7 @@ class NewsLineController extends Controller
 
     public function getListNews()
     {
-        return view('NewsLine.getListNews', ['news'=> $this->news]);
+        return view('News.welcome', ['news'=> $this->news]);
     }
 
     public function getNews(int $id)

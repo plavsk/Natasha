@@ -2,10 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'TestController@listTest');
+//Route::get('/', 'TestController@listTest');
 
-//Route::get('/', 'NewsLine\NewsLineController@getListNews');
-//Route::get('/news/{id}.html', 'NewsLine\NewsLineController@getNews')-> name('news');
+Route::get('/', 'NewsLine\NewsLineController@getListNews');
+Route::get('/news/{id}.html', 'NewsLine\NewsLineController@getNews')-> name('news');
 
 
 //Route::get('/articles.html', 'Articles\IndexController@listArticles');
