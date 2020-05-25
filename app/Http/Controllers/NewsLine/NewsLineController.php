@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers\NewsLine;
 
 use Illuminate\Http\Request;
