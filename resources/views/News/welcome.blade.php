@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="news_line.css" rel="stylesheet">
+    <link href="../../sass/news_line.css" rel="stylesheet">
     <title>Лента новостей</title>
 </head>
 <body>
 <div class="container">
     <nav>
         <ul class="menu">
-            <li><a href="">Главная</a></li>
+            <li><a href="{{route('direct')}}">Главная</a></li>
             <li><a href="{{route('about')}}">О нас</a></li>
             <li><a href="">Контакты</a></li>
         </ul>
