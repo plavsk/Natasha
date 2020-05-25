@@ -36,5 +36,9 @@ class NewsLineController extends Controller
     public function getAboutPage(){
         return view('News.about');
     }
+
+    public function getContactsPage(){
+        return view('News.contacts');
+    }
 }
 
