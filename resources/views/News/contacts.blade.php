@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="/sass/news_line.css" rel="stylesheet">
+    <link href="../../sass/news_line.css" rel="stylesheet">
     <title>Лента новостей</title>
 </head>
 <body>
