@@ -9,6 +9,7 @@
     <nav>
         <ul class="menu">
             <li><a href="{{route('direct')}}">Главная</a></li>
+            <li><a href="{{route('category')}}">Категории новостей</a></li>
             <li><a href="{{route('about')}}">О нас</a></li>
             <li><a href="{{route('contacts')}}">Контакты</a></li>
         </ul>

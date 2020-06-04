@@ -7,6 +7,13 @@ use App\Http\Controllers\Controller;
 class NewsLineController extends Controller
 {
     protected $news = [];
+    protected $category = [];
+    protected $society =[];
+    protected $policy = [];
+    protected $culture = [];
+    protected $economy = [];
+    protected $sport = [];
+
     public function __construct()
     {
         $this->news = [
@@ -16,6 +23,19 @@ class NewsLineController extends Controller
             'Новость 4',
             'Новость 5'
         ];
+
+        $this->category = [
+            'Общество',
+            'Политика',
+            'Культура',
+            'Экономика',
+            'Спорт'
+        ];
+    }
+
+    public function categoryNews(){
+
+        return view('News.category', ['category'=>$this->category]);
     }
 
     public function getListNews()

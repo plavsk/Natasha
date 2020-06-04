@@ -16,18 +16,16 @@
     </nav>
     <header>
         <div class="header">
-            <h1>Лента новостей</h1>
+            <h1>Категории новостей</h1>
         </div>
     </header>
     <div class="main">
-        <h3>{{$news}}</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.</p>
+        <p>Добро пожаловать!</p>
+        <p>Очень рады, что вы выбрали нашу "Ленту новостей".</p>
+        <p>Здесь вы найдете самые свежие новости!</p>
+        @foreach($news as $key => $value)
+            <p><a href="{{route('category', ['id' => $key])}}">{{$key}}-{{$value}}</a></p>>
+        @endforeach
     </div>
     <footer>
         <div class="footer">
@@ -37,3 +35,4 @@
 </div>
 </body>
 </html>
+
