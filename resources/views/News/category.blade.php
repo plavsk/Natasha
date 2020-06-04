@@ -23,7 +23,7 @@
         <p>Добро пожаловать!</p>
         <p>Очень рады, что вы выбрали нашу "Ленту новостей".</p>
         <p>Здесь вы найдете самые свежие новости!</p>
-        @foreach($news as $key => $value)
+        @foreach($category as $key => $value)
             <p><a href="{{route('category', ['id' => $key])}}">{{$key}}-{{$value}}</a></p>>
         @endforeach
     </div>
