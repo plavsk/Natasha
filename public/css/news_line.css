@@ -23,7 +23,7 @@ body{
 
 .header h1 {
     clear:left;
-    background-color: chartreuse;
+    background-color: rgb(127, 255, 0);
 }
 
 .footer {
