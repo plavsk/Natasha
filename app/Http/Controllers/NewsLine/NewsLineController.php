@@ -79,6 +79,10 @@ class NewsLineController extends Controller
         return view('News.category', ['category'=>$this->category]);
     }
 
+    public function listNews(){
+        return view('News.listNews', ['society'=>$this->society]);
+    }
+
     public function getListNews()
     {
         return view('News.welcome', ['news'=> $this->news]);

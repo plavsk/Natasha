@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('category.html', 'NewsLine\NewsLineController@categoryNews')-> name('category');
 
+Route::get('society.html', 'NewsLine\NewsLineController@listNews')-> name('society');
+
 Route::get('/', 'NewsLine\NewsLineController@getListNews')-> name('direct');
 
 Route::get('/news/{id}.html', 'NewsLine\NewsLineController@getNews')-> name('news');
