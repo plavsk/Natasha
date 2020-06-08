@@ -23,8 +23,8 @@ body{
 
 .header h1 {
     clear:left;
-    background-color: rgb(127, 255, 0);
-}
+    align-self: center;
+    }
 
 .footer {
     background-color: aquamarine;
