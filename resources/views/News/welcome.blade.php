@@ -4,7 +4,7 @@
     <link href="{{ URL::asset('css/news_line.css') }}" rel="stylesheet">
     <title>Лента новостей</title>
 </head>
-<body style="background-color: aqua">
+<body style="background-color: #66CC99">
 <div class="container">
     <nav>
         <ul class="menu">
