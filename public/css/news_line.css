@@ -24,6 +24,10 @@ body{
 .header h1 {
     clear:left;
 }
+
+.footer {
+    background-color: aquamarine;
+}
 .footer p{
     position:fixed;
     bottom:0;
